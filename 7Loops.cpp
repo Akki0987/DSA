@@ -15,8 +15,26 @@ int main()
     }
     */
 
-//    while loop
+//    while loop - The task remains same as for loop but syntax changes  here first condition is checked then the code ia executed and at last the updation is done.
+// int i=0;
+// while(i<10)
+// {
+//     cout<<i<<" "<<"AKKI"<<endl;
+//     i++;
+// }
 
+
+// Do While loop - In a lot of cases the condition might be user dependent  or might have use cases, if we want to execute our line of code minimum for one time or atleast one time  [Even If the condition doesnt allows do it for first time ]
     
+    int i=2 ;
+    do
+    {
+        cout<<i<<" "<<"AKKI"<<endl;
+        i++;
+    } while (i<=1);
+    cout<< i<<endl;
+    
+    // here i =2 doesnt met the specified condition still "AKKI" gets printed for one time
+
     return 0;
 }
