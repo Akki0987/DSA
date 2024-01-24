@@ -27,7 +27,7 @@ int main()
 // Do While loop - In a lot of cases the condition might be user dependent  or might have use cases, if we want to execute our line of code minimum for one time or atleast one time  [Even If the condition doesnt allows do it for first time ]
     
     int i=2 ;
-    do
+    do 
     {
         cout<<i<<" "<<"AKKI"<<endl;
         i++;
